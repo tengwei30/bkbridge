@@ -8,10 +8,10 @@ module.exports = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'BKWebViewBridge.js',
+    filename: 'BKBridge.js',
     libraryTarget: 'umd',
     libraryExport: 'default',
-    library: 'BKWebViewBridge',
+    library: 'BKBridge',
   },
   module: {
     rules: [

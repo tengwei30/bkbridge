@@ -1,8 +1,8 @@
 {
-  "name": "bk_webviewbridge",
+  "name": "bk_bridge",
   "version": "1.0.0",
   "description": "Native 和 WebView 通信桥梁",
-  "main": "dist/BKWebViewBridge.js",
+  "main": "dist/BKBridge.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js "
@@ -13,7 +13,7 @@
       "test/"
     ],
     "globals": [
-      "WebViewJavascriptBridge"
+      "BKBridge"
     ],
     "parser": "babel-eslint"
   },
